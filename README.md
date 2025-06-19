@@ -2,7 +2,7 @@
 
 ## 🧰 Recursos Recomendados
 
-### Chats
+### Asistentes de IA
 
 - [**ChatGPT**](https://chatgpt.com/) - Ideal para generar texto, programar, resolver dudas, crear contenido, resumir información y ayudarte con tareas creativas o técnicas. Muy versátil y fácil de usar.
 - [**Claude**](https://claude.ai/) - Especialmente bueno para trabajar con documentos largos, mantener contexto amplio y entender instrucciones complejas; útil en redacción, análisis y asistencia empresarial.
@@ -31,7 +31,10 @@
 - [**Napkin AI**](https://app.napkin.ai/) - Plataforma visual impulsada por IA que convierte textos en diagramas, infografías y gráficos con un solo clic.
 - [**kokorotts**](https://kokorotts.net/es) - Servicio web gratuito que convierte texto en voz natural utilizando el modelo open‑weight Kokoro (82 M parámetros).
 
-### Frameworks de Agentes de IA
+### Frameworks de Agentes de IAç
+- [**Crewai**](https://github.com/crewaiinc/crewai) - 
+- [**Langgraph**](https://www.langchain.com/langgraph) - 
+- [**smolagents**](https://github.com/huggingface/smolagents) - 
 - [**mastra.ai**](https://mastra.ai/) - Framework open-source en Typescript para construir agentes de IA con memoria, herramientas, RAG y flujos de trabajo reutilizables.
 - [**mindsdb**](https://mindsdb.com/) - Plataforma que permite crear agentes conversacionales que consultan datos estructurados y no estructurados directamente desde SQL o APIs.
 - [**beeai-framework**](https://github.com/i-am-bee/beeai-framework) - Framework TypeScript (y Python) Apache‑2.0 para orquestar sistemas multi‑agente con workflows, memoria, telemetría y protocolos MCP/ACP.
@@ -45,6 +48,10 @@
 
 - [**Mistral 7B**](https://huggingface.co/mistralai/Mistral-7B-v0.1) - Pequeño pero potente (instruct-tuned), ideal para tareas generales.
 - [**Mixtral 8x7B**](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) - Modelo Mixture of Experts, eficiente y versátil.
+
+### Granite
+
+- [**Ibm-granite**](https://huggingface.co/ibm-granite) - 
 
 ### 🔹 Meta AI
 
@@ -99,11 +106,17 @@
 ### Bases de Datos
 
 - [**Duckdb**](https://duckdb.org/) - Base de datos SQL OLAP de alto rendimiento, embebida en el proceso de la aplicación, perfecta para análisis local de grandes datasets.
-- [**MongoDB Atlas**](https://www.mongodb.com/atlas/database) – NoSQL gestionado
 - [**SQLite**](https://www.sqlite.org/index.html) – Simple, sin servidor
 - [**PostgreSQL**](https://www.postgresql.org/) – SQL gestionado
 - [**Bonsai**](https://bonsai.io/) - ElasticSearch gestionado (plan gratuito)
 - [**MinIO**](https://github.com/minio/) - Almacenamiento de objetos de alto rendimiento compatible con S3, ideal para entornos on‑premise, nube híbrida o desarrollo local.
+
+### Vector DB
+
+- [](https://github.com/facebookresearch/faiss) - 
+- [](https://github.com/chroma-core/chroma) - 
+- [](https://github.com/milvus-io/milvus) - 
+- [](https://github.com/qdrant/qdrant) - 
 
 ### APIs / Backend
 
@@ -129,13 +142,9 @@
 
 ## Frameworks Frontend
 
-- [**React**](https://react.dev/) - Biblioteca declarativa para construir interfaces de usuario.
 - [**Next.js**](https://nextjs.org/) - Framework para React con renderizado híbrido. Ideal para proyectos completos.
-- [**Nuxt.js**](https://nuxtjs.org/) - Framework para React con rendimiento y rendimiento.
 - [**Vue.js**](https://vuejs.org/) - Framework progresivo, sencillo y potente para construir interfaces.
 - [**Svelte / SvelteKit**](https://kit.svelte.dev/) - Framework que compila a JavaScript puro, ideal para rendimiento.
-- [**Angular**](https://angular.io/) - Framework de Angular para construir aplicaciones web.
-- [**Ember.js**](https://emberjs.com/) - Framework para construir aplicaciones web.
 - [**htmlx**](https://htmx.org/) - Framework para construir interfaces web
 
 ## Visualización de Datos
@@ -171,14 +180,7 @@
 ### Observabilidad / Test
 
 - [**Postman**](https://www.postman.com/) – Testing de APIs
-- [**UptimeRobot**](https://uptimerobot.com/) – Monitorización de endpoints
-- [**Playwright**](https://playwright.dev/) - Testing end-to-end moderno para UI.
-- [**Jest**](https://jestjs.io/) - Testing de JavaScript
-- [**Jest Snapshot**](https://jestjs.io/docs/snapshot-testing) - Comparación de resultados en testing
-- [**Puppeteer**](https://pptr.dev/) - Puppeteer es una biblioteca de JavaScript para controlar navegadores web.
-- [**Selenium**](https://www.selenium.dev/) - Framework para automatización de pruebas de usuario.
-- [**Cypress**](https://www.cypress.io/) - Testing end-to-end moderno para UI.
-- [**Selenium Grid**](https://www.selenium.dev/documentation/grid/) - Grid de Selenium para automatización de pruebas de usuario.
+- [**phoenix**] (https://github.com/Arize-ai/phoeni) -
 
 ### Automatización y Servicios
 
@@ -189,6 +191,7 @@
 ### Utilidades
 
 - [**Git**](https://git-scm.com/) - Git es un sistema de control de versiones distribuido que permite gestionar y seguir cambios en archivos de código de forma eficiente.
+- [**podman**](https://podman-desktop.io/) -
 - [**Docker**](https://www.docker.com/) - Docker es una plataforma que permite crear, ejecutar y gestionar aplicaciones en contenedores ligeros y portables.
 - [**Omni‑Tools**](https://github.com/iib0011/omni-tools) - Colección autohospedada de herramientas web prácticas (PDF, vídeo, texto, datos, cálculos…) que se ejecutan totalmente en el navegador.
 - [**dawarich**](https://dawarich.app/docs/intro) - App web self-hosted para registrar, visualizar y analizar tu historial de ubicación con total privacidad.
