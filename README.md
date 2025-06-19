@@ -31,12 +31,12 @@
 - [**Napkin AI**](https://app.napkin.ai/) - Plataforma visual impulsada por IA que convierte textos en diagramas, infografías y gráficos con un solo clic.
 - [**kokorotts**](https://kokorotts.net/es) - Servicio web gratuito que convierte texto en voz natural utilizando el modelo open‑weight Kokoro (82 M parámetros).
 
-### Frameworks de Agentes de IAç
-- [**Crewai**](https://github.com/crewaiinc/crewai) - 
-- [**Langgraph**](https://www.langchain.com/langgraph) - 
-- [**smolagents**](https://github.com/huggingface/smolagents) - 
-- [**mastra.ai**](https://mastra.ai/) - Framework open-source en Typescript para construir agentes de IA con memoria, herramientas, RAG y flujos de trabajo reutilizables.
-- [**mindsdb**](https://mindsdb.com/) - Plataforma que permite crear agentes conversacionales que consultan datos estructurados y no estructurados directamente desde SQL o APIs.
+### Frameworks de Agentes de IA
+- [**Crewai**](https://github.com/crewaiinc/crewai) -  Framework Python open-source para orquestar equipos de agentes de IA que colaboran de manera autónoma en tareas complejas.
+- [**Langgraph**](https://www.langchain.com/langgraph) - Framework open‑source basado en gráficos para construir agentes de IA duraderos, con estado, ciclos, memoria y control humano en el bucle.
+- [**Smolagents**](https://github.com/huggingface/smolagents) - Biblioteca Python minimalista de Hugging Face para construir y ejecutar agentes IA que “piensan” escribiendo código en vez de solo llamar funciones. 
+- [**Mastra.ai**](https://mastra.ai/) - Framework open-source en Typescript para construir agentes de IA con memoria, herramientas, RAG y flujos de trabajo reutilizables.
+- [**Mindsdb**](https://mindsdb.com/) - Plataforma que permite crear agentes conversacionales que consultan datos estructurados y no estructurados directamente desde SQL o APIs.
 - [**beeai-framework**](https://github.com/i-am-bee/beeai-framework) - Framework TypeScript (y Python) Apache‑2.0 para orquestar sistemas multi‑agente con workflows, memoria, telemetría y protocolos MCP/ACP.
 
 ### Modelos LLM Open Source
@@ -51,7 +51,7 @@
 
 ### Granite
 
-- [**Ibm-granite**](https://huggingface.co/ibm-granite) - 
+- [**Ibm-granite**](https://huggingface.co/ibm-granite) - Serie de modelos multimodales de IBM, open‑source hasta 34B parámetros, optimizados para uso empresarial en lenguaje, código, visión, voz y series temporales.
 
 ### 🔹 Meta AI
 
@@ -100,6 +100,7 @@
 
 - [**VSCode**](https://code.visualstudio.com/) - IDE de desarrollo se puede integrar con IA
 - [**Cursor**](https://www.cursor.com/) - Editor de codigo con IA incorporado
+- [**Windsurf**](https://windsurf.com/) - IDE nativo con agentes de IA que combina asistente estilo Copilot y capacidades autónomas (Cascade) para ayudarte a escribir, refactorizar y desplegar código sin salir del flujo.
 - [**Jetbrains**](https://www.jetbrains.com/es-es/) - IDEs avanzados (IntelliJ IDEA, PyCharm, WebStorm…) y herramientas colaborativas para desarrolladores.
 - [**JupyterLab**](https://jupyter.org/) - Interfaz de código interactivo para Python, R, Julia, etc.
 
@@ -113,10 +114,10 @@
 
 ### Vector DB
 
-- [](https://github.com/facebookresearch/faiss) - 
-- [](https://github.com/chroma-core/chroma) - 
-- [](https://github.com/milvus-io/milvus) - 
-- [](https://github.com/qdrant/qdrant) - 
+- [**Faiss**](https://github.com/facebookresearch/faiss) - Librería de código abierto para búsqueda eficiente y clustering de vectores densos, compatible con CPU y GPU.
+- [**Chroma**](https://github.com/chroma-core/chroma) - Base de datos de vectores open-source para almacenamiento de embeddings y búsqueda semántica con LLMs.
+- [**Milvus**](https://github.com/milvus-io/milvus) - Base de datos vectorial de alto rendimiento, nativa en la nube, diseñada para búsquedas por similitud a escala (de millones a miles de millones de vectores).
+- [**Qdrant**](https://github.com/qdrant/qdrant) - Base de datos vectorial de alto rendimiento y código abierto, optimizada para búsquedas por similitud semántica a gran escala.
 
 ### APIs / Backend
 
@@ -180,7 +181,7 @@
 ### Observabilidad / Test
 
 - [**Postman**](https://www.postman.com/) – Testing de APIs
-- [**phoenix**] (https://github.com/Arize-ai/phoeni) -
+- [**phoenix**](https://github.com/Arize-ai/phoenix) - Plataforma open-source que ofrece observabilidad, trazado y evaluación de aplicaciones LLM, todo desde un dashboard intuitivo.
 
 ### Automatización y Servicios
 
