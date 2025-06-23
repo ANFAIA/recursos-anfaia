@@ -201,7 +201,7 @@
 
 - [**Vite**](https://vitejs.dev/) - Empaquetador rápido y moderno para React, Vue, Svelte, etc.
 - [**PNPM**](https://pnpm.io/) - Gestor de paquetes rápido y eficiente.
-- **Iconos Gratuitos**
+- [**pexels**](https://www.pexels.com/)- Colección de imágenes y videos de perfiles de personas de alta calidad.
   - [Lucide](https://lucide.dev/)
   - [Heroicons](https://heroicons.com/)
   - [Tabler Icons](https://tabler.io/icons)
