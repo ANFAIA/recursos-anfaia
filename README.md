@@ -212,6 +212,7 @@
 - [**Linux - Ubuntu**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_linux_ubuntu.md) - Pasos para configurar tu Linux Ubuntu🐧
 - [**Linux - Fedora**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_linux_fedora.md) - Pasos para configurar tu Linux Fedora🐧
 - [**Mac Os X**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_macosx.md) - Pasos para configurar tu Mac🍎
+. [**Configurar un entorno virtual en Python**](https://github.com/ANFAIA/recursos-anfaia/blob/main/virtual_enviroment.md) - Configurar un entorno virtual en Python 
 
 ### Tutoriales
 
