@@ -16,13 +16,15 @@ También necesitas tener `pip` y `venv` instalados (ambos vienen por defecto con
 
 ## Paso 1: Crear un entorno virtual
 
-Abre una terminal y ejecuta el siguiente comando:
+Abre una terminal en la carpeta de tu proyecto y ejecuta:
 
 ```bash
-python3 -m venv env
+python3 -m venv .venv
 ```
 
-Este comando creará una carpeta llamada `env` en tu directorio actual con un entorno virtual de Python.
+Este comando creará una carpeta llamada `.venv` en tu directorio actual con un entorno virtual de Python.
+
+> `.venv` es el nombre convencional: la mayoría de editores (VSCode, PyCharm) lo detectan automáticamente. Si usas Git, añade `.venv/` a tu `.gitignore` — el entorno no debe subirse al repositorio.
 
 ---
 
@@ -31,22 +33,24 @@ Este comando creará una carpeta llamada `env` en tu directorio actual con un en
 - En **Linux/macOS**:
 
   ```bash
-  source env/bin/activate
+  source .venv/bin/activate
   ```
 
 - En **Windows (CMD)**:
 
   ```cmd
-  env\Scripts\activate.bat
+  .venv\Scripts\activate.bat
   ```
 
 - En **Windows (PowerShell)**:
 
   ```powershell
-  .\env\Scripts\Activate.ps1
+  .\.venv\Scripts\Activate.ps1
   ```
 
-Una vez activado, deberías ver el nombre del entorno (por ejemplo, `(env)`) al principio de la línea de comandos.
+  > Si PowerShell muestra un error de políticas de ejecución, ejecuta antes: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+Una vez activado, deberías ver el nombre del entorno (por ejemplo, `(.venv)`) al principio de la línea de comandos.
 
 ---
 
@@ -89,7 +93,7 @@ Puedes guardar las dependencias instaladas en un archivo `requirements.txt` con:
 pip freeze > requirements.txt
 ```
 
-Y más adelante puedes recrear el entorno con:
+Y más adelante, en un entorno virtual nuevo, puedes reinstalarlas con:
 
 ```bash
 pip install -r requirements.txt
@@ -103,6 +107,25 @@ Cuando termines, puedes salir del entorno virtual con:
 
 ```bash
 deactivate
+```
+
+---
+
+## Alternativa moderna: uv
+
+Si tienes instalado [uv](https://github.com/astral-sh/uv) (ver las guías de configuración de entorno), todo lo anterior se reduce a:
+
+```bash
+uv venv                      # crea .venv (no hace falta activarlo)
+uv pip install numpy pandas  # instala en el entorno del proyecto
+```
+
+O, gestionando el proyecto completo con `pyproject.toml`:
+
+```bash
+uv init
+uv add numpy pandas
+uv run python   # ejecuta Python dentro del entorno
 ```
 
 ---

@@ -1,220 +1,398 @@
 # recursos-anfaia
 
-## 🧰 Recursos Recomendados
+Recursos recomendados para desarrolladores, con un fuerte énfasis en **open source** y en las novedades más relevantes de IA, agentes y desarrollo moderno.
 
-### Asistentes de IA
+> Convención: las herramientas marcadas como **(open source)** publican su código bajo licencia libre (Apache 2.0, MIT, AGPL, GPL, BSD…). Las marcadas como **(open weights)** liberan pesos pero no necesariamente datos o código de entrenamiento.
 
-- [**ChatGPT**](https://chatgpt.com/) - Ideal para generar texto, programar, resolver dudas, crear contenido, resumir información y ayudarte con tareas creativas o técnicas. Muy versátil y fácil de usar.
-- [**Claude**](https://claude.ai/) - Especialmente bueno para trabajar con documentos largos, mantener contexto amplio y entender instrucciones complejas; útil en redacción, análisis y asistencia empresarial.
-- [**Perplexity**](https://www.perplexity.ai/) - Excelente como buscador inteligente que da respuestas fundamentadas con fuentes; ideal para investigar, aprender rápidamente y contrastar información actualizada.
-- [**Granite**](https://www.ibm.com/granite/playground/) - IBM Granite Playground es una plataforma web para probar modelos de IA empresariales de IBM, con enfoque en generación de código, explicaciones técnicas y confiabilidad.
-- [**Gemini**](https://gemini.google.com/) - Integra capacidades de IA con el ecosistema de Google; útil para tareas de productividad, búsqueda, integración con documentos y uso personal en Android o Google Workspace.
-- [**Deepseek**](https://chat.deepseek.com/) - Enfocado en programación e ingeniería, es útil para desarrolladores que buscan asistencia técnica precisa, generación de código y comprensión de sistemas complejos.
-- [**Mistral**](https://chat.mistral.ai/chat) - Chatbot web móvil de Mistral AI que permite interactuar en varios idiomas con modelos generativos avanzados.
-- [**copilot**](https://copilot.microsoft.com/) - Asistente conversacional de IA de Microsoft que actúa como copiloto inteligente, integrado en web, Windows, Office y móviles.
-- [**Google AI Studio**](https://aistudio.google.com/) - Google AI Studio es un entorno web gratuito de Google para crear, probar y personalizar fácilmente aplicaciones con los modelos multimodales Gemini (texto, imagen, audio, vídeo), ideal para prototipos, ingeniería de prompts y generación de código vía API
+---
 
-### Inteligencia Artificial / Modelado
+## 🤖 Asistentes de IA (Chat)
 
-- [**Hugging Face Hub**](https://huggingface.co/) – Modelos preentrenados y datasets
-- [**PEFT (LoRA)**](https://github.com/huggingface/peft) – Fine-tuning eficiente
-- [**Transformers**](https://github.com/huggingface/transformers) – Framework de modelos NLP
-- [**Google Colab**](https://colab.research.google.com/) – Notebooks con GPU gratis
-- [**Kaggle Kernels**](https://www.kaggle.com/code) – Notebooks con datasets integrados
+- [**ChatGPT**](https://chatgpt.com/) - Asistente conversacional de OpenAI. Versátil para generar texto, programar, resumir y crear contenido.
+- [**Claude**](https://claude.ai/) - Asistente de Anthropic. Destaca en documentos largos, razonamiento, escritura y análisis empresarial.
+- [**Gemini**](https://gemini.google.com/) - Asistente de Google integrado con su ecosistema (Workspace, Android, búsqueda).
+- [**Perplexity**](https://www.perplexity.ai/) - Buscador conversacional con citas y fuentes. Ideal para investigar y contrastar información actualizada.
+- [**DeepSeek**](https://chat.deepseek.com/) - Chat de DeepSeek con su familia V4 (Pro y Flash, razonamiento integrado). Enfoque técnico, matemático y de programación.
+- [**Mistral Le Chat**](https://chat.mistral.ai/chat) - Chat de Mistral AI con modelos europeos (Mistral Large 3, Medium 3.5, Small) y capacidades multimodales.
+- [**Microsoft Copilot**](https://copilot.microsoft.com/) - Asistente de Microsoft integrado en Windows, Edge y Microsoft 365.
+- [**Grok**](https://grok.com/) - Asistente de xAI integrado en X (Twitter), con acceso en tiempo real y modelos Grok 4.1/4.3.
+- [**Qwen Chat**](https://chat.qwen.ai/) - Chat de Alibaba con la familia Qwen 3.5/3.6 (open weights) y Qwen3.7-Max, fuerte en multilingüe y razonamiento.
+- [**Kimi**](https://kimi.com/) - Asistente de Moonshot AI con modelos de gran contexto y la familia Kimi K2.x (open weights).
+- [**Google AI Studio**](https://aistudio.google.com/) - Entorno web gratuito para prototipar con los modelos Gemini multimodales y generar código vía API.
+- [**Granite Playground**](https://www.ibm.com/granite/playground/) - Plataforma de IBM para probar sus modelos Granite empresariales **(open weights)**.
 
-### Utilidades de IA
-- [**Model Context Protocol Specification**](https://modelcontextprotocol.io/introduction)- Protocolo abierto para estandarizar cómo las aplicaciones proporcionan contexto (datos y herramientas) a modelos LLM.
-- [**OpenAI Function Calling Documentation**](https://platform.openai.com/docs/guides/function-calling) - Mecanismo del API de OpenAI (modo chat) para que los modelos LLM llamen funciones externas de forma estructurada y segura.
-- [**BeeAI platform**](https://beeai.dev/) - Plataforma open-source para descubrir, ejecutar y componer agentes de IA de múltiples frameworks mediante un protocolo común.
-- [**LangFlow**](https://www.langflow.org/) - Interfaz visual de código abierto para crear, iterar y desplegar flujos y agentes de IA, conectando LLMs, bases de datos vectoriales y APIs.
-- [**LangChain**](https://python.langchain.com/) - Framework de IA para Python, con modelos de LLMs, bases de datos, archivos, APIs y más.
-- [**Napkin AI**](https://app.napkin.ai/) - Plataforma visual impulsada por IA que convierte textos en diagramas, infografías y gráficos con un solo clic.
-- [**kokorotts**](https://kokorotts.net/es) - Servicio web gratuito que convierte texto en voz natural utilizando el modelo open‑weight Kokoro (82 M parámetros).
+---
 
-### Frameworks de Agentes de IA
-- [**Crewai**](https://github.com/crewaiinc/crewai) -  Framework Python open-source para orquestar equipos de agentes de IA que colaboran de manera autónoma en tareas complejas.
-- [**Langgraph**](https://www.langchain.com/langgraph) - Framework open‑source basado en gráficos para construir agentes de IA duraderos, con estado, ciclos, memoria y control humano en el bucle.
-- [**Smolagents**](https://github.com/huggingface/smolagents) - Biblioteca Python minimalista de Hugging Face para construir y ejecutar agentes IA que “piensan” escribiendo código en vez de solo llamar funciones. 
-- [**Mastra.ai**](https://mastra.ai/) - Framework open-source en Typescript para construir agentes de IA con memoria, herramientas, RAG y flujos de trabajo reutilizables.
-- [**Mindsdb**](https://mindsdb.com/) - Plataforma que permite crear agentes conversacionales que consultan datos estructurados y no estructurados directamente desde SQL o APIs.
-- [**beeai-framework**](https://github.com/i-am-bee/beeai-framework) - Framework TypeScript (y Python) Apache‑2.0 para orquestar sistemas multi‑agente con workflows, memoria, telemetría y protocolos MCP/ACP.
+## 💻 IDEs y Editores de Código
 
-### Modelos LLM Open Source
+- [**VSCode**](https://code.visualstudio.com/) - Editor de Microsoft. Núcleo **open source** (MIT), enorme ecosistema de extensiones e integración con casi cualquier asistente de IA.
+- [**Cursor**](https://www.cursor.com/) - Fork de VSCode centrado en IA: Composer agente, edición multifichero, tab completion contextual.
+- [**Windsurf**](https://windsurf.com/) - IDE con agente Cascade que combina chat, edición y ejecución autónoma de tareas.
+- [**Zed**](https://zed.dev/) **(open source)** - Editor ultra rápido escrito en Rust, con colaboración en tiempo real y soporte nativo para asistentes de IA.
+- [**Void**](https://voideditor.com/) **(open source)** - Alternativa libre a Cursor: fork de VSCode con agentes de IA y soporte para modelos locales.
+- [**JetBrains IDEs**](https://www.jetbrains.com/) - IntelliJ, PyCharm, WebStorm… con su asistente AI Assistant y Junie (modo agente).
+- [**JupyterLab**](https://jupyter.org/) **(open source)** - Interfaz interactiva para Python, R, Julia y notebooks de datos.
 
-## 1. Modelos Verdaderamente Open Source
-*(Licencias como Apache 2.0, MIT, BSD…)*
+---
+
+## 🧠 Agentes de Programación (Coding Agents)
+
+Herramientas que escriben, editan y ejecutan código de forma autónoma o semiautónoma.
+
+### CLI / Terminal
+- [**Claude Code**](https://claude.com/claude-code) - CLI oficial de Anthropic. Trabaja en el repo, ejecuta comandos, edita ficheros y soporta hooks, sub-agentes, MCP y SDK.
+- [**OpenAI Codex CLI**](https://github.com/openai/codex) **(open source, Apache 2.0)** - CLI de OpenAI para programar con sus modelos directamente en la terminal.
+- [**Gemini CLI**](https://github.com/google-gemini/gemini-cli) **(open source, Apache 2.0)** - CLI oficial de Google con la familia Gemini 3 (Pro/Flash) y herramientas integradas.
+- [**Aider**](https://aider.chat/) **(open source, Apache 2.0)** - Pair programmer por CLI, integra con Git, soporta múltiples modelos (Claude, GPT, locales).
+- [**OpenHands**](https://github.com/All-Hands-AI/OpenHands) **(open source, MIT)** - Antes OpenDevin. Agente autónomo capaz de modificar código, ejecutar comandos y navegar.
+- [**Goose**](https://block.github.io/goose/) **(open source, Apache 2.0)** - Agente de Block extensible vía MCP, funciona local con cualquier modelo.
+- [**SWE-agent**](https://github.com/princeton-nlp/SWE-agent) **(open source, MIT)** - Agente de investigación de Princeton para resolver issues reales de GitHub.
+
+### Editor / Extensiones
+- [**Cline**](https://github.com/cline/cline) **(open source, Apache 2.0)** - Agente autónomo en VSCode con plan/act, MCP y soporte para cualquier proveedor.
+- [**Roo Code**](https://github.com/RooVetGit/Roo-Code) **(open source, Apache 2.0)** - Fork avanzado de Cline con modos personalizados y orquestación.
+- [**Continue**](https://continue.dev/) **(open source, Apache 2.0)** - Asistente para VSCode y JetBrains, totalmente configurable con modelos locales o cloud.
+- [**Kilo Code**](https://github.com/Kilo-Org/kilocode) **(open source)** - Fork open source que combina lo mejor de Cline y Roo.
+- [**GitHub Copilot**](https://github.com/features/copilot) - El clásico de Microsoft/GitHub, ahora con modo agente y soporte multimodelo.
+
+### Web / SaaS
+- [**Devin**](https://devin.ai/) - Agente de Cognition Labs orientado a tareas de ingeniería de software de extremo a extremo.
+- [**Replit Agent**](https://replit.com/) - Crea, edita y despliega aplicaciones completas en el IDE web de Replit.
+- [**Bolt.new**](https://bolt.new/) - De StackBlitz. Genera webapps completas que se ejecutan al instante en el navegador.
+- [**v0**](https://v0.dev/) - De Vercel. Genera componentes y aplicaciones Next.js con shadcn/ui.
+- [**Lovable**](https://lovable.dev/) - Constructor de aplicaciones web full-stack mediante chat.
+
+---
+
+## 🧩 Frameworks para Construir Agentes
+
+### SDKs oficiales de proveedores
+- [**Claude Agent SDK**](https://docs.claude.com/en/api/agent-sdk/overview) - SDK oficial de Anthropic (Python y TypeScript) para construir agentes con herramientas, MCP y memoria.
+- [**OpenAI Agents SDK**](https://github.com/openai/openai-agents-python) **(open source, MIT)** - Framework ligero de OpenAI para orquestación de agentes con handoffs, guardrails y traces.
+- [**Google ADK**](https://google.github.io/adk-docs/) **(open source, Apache 2.0)** - Agent Development Kit de Google, multi-agente, multi-modelo, con despliegue en Vertex AI.
+- [**Microsoft AutoGen**](https://github.com/microsoft/autogen) **(open source, MIT)** - Framework multiagente conversacional de Microsoft Research.
+- [**Microsoft Semantic Kernel**](https://github.com/microsoft/semantic-kernel) **(open source, MIT)** - SDK de Microsoft para integrar LLMs en aplicaciones .NET, Python y Java.
+
+### Frameworks comunitarios
+- [**LangGraph**](https://www.langchain.com/langgraph) **(open source)** - Framework basado en grafos de LangChain para agentes con estado, ciclos y memoria.
+- [**LangChain**](https://python.langchain.com/) **(open source, MIT)** - Framework veterano de orquestación de LLMs, herramientas y memoria.
+- [**LlamaIndex**](https://www.llamaindex.ai/) **(open source, MIT)** - Framework Python para RAG, agentes y workflows sobre datos privados.
+- [**CrewAI**](https://github.com/crewAIInc/crewAI) **(open source, MIT)** - Orquestación de equipos de agentes colaborativos en Python.
+- [**PydanticAI**](https://ai.pydantic.dev/) **(open source, MIT)** - Framework Python de tipado fuerte para construir agentes basados en Pydantic.
+- [**Agno**](https://github.com/agno-agi/agno) **(open source, MPL-2.0)** - Antes Phidata. Framework Python ligero para agentes multimodales con memoria y herramientas.
+- [**Smolagents**](https://github.com/huggingface/smolagents) **(open source, Apache 2.0)** - De Hugging Face. Agentes minimalistas que "piensan en código".
+- [**Mastra**](https://mastra.ai/) **(open source, Elastic 2.0)** - Framework TypeScript para agentes con memoria, RAG y workflows.
+- [**BeeAI Framework**](https://github.com/i-am-bee/beeai-framework) **(open source, Apache 2.0)** - Multi-agente en TS/Python con MCP/ACP, de IBM Research.
+- [**BeeAI Platform**](https://beeai.dev/) **(open source)** - Plataforma para descubrir, ejecutar y componer agentes de múltiples frameworks.
+- [**Letta**](https://github.com/letta-ai/letta) **(open source, Apache 2.0)** - Antes MemGPT. Agentes con memoria a largo plazo persistente.
+- [**Strands Agents**](https://github.com/strands-agents/sdk-python) **(open source, Apache 2.0)** - SDK de AWS para agentes con MCP y enfoque "model-driven".
+- [**Atomic Agents**](https://github.com/BrainBlend-AI/atomic-agents) **(open source, MIT)** - Framework modular y ligero basado en Pydantic.
+- [**Haystack**](https://haystack.deepset.ai/) **(open source, Apache 2.0)** - Framework de deepset para RAG y pipelines de IA en producción.
+
+### Protocolos y estándares
+- [**MCP (Model Context Protocol)**](https://modelcontextprotocol.io/) **(open source)** - Estándar abierto promovido por Anthropic para conectar LLMs con herramientas y datos.
+- [**A2A (Agent-to-Agent)**](https://a2a-protocol.org/) **(open source)** - Protocolo abierto de Google para comunicación entre agentes de distintos proveedores.
+- [**ACP (Agent Communication Protocol)**](https://agentcommunicationprotocol.dev/) **(open source)** - Protocolo de comunicación entre agentes impulsado por IBM/Linux Foundation.
+- [**OpenAI Function Calling**](https://platform.openai.com/docs/guides/function-calling) - Mecanismo del API de OpenAI para invocar funciones externas estructuradas.
+
+### No-code / Low-code
+- [**LangFlow**](https://www.langflow.org/) **(open source, MIT)** - Constructor visual de flujos y agentes basado en LangChain.
+- [**Flowise**](https://flowiseai.com/) **(open source, Apache 2.0)** - Alternativa visual a LangFlow, drag-and-drop.
+- [**Dify**](https://dify.ai/) **(open source)** - Plataforma para construir y desplegar aplicaciones LLM con RAG, agentes y observabilidad.
+- [**n8n**](https://n8n.io/) **(fair-code)** - Automatización flexible de workflows con nodos de IA y agentes.
+
+---
+
+## 🌍 Modelos LLM Open Source / Open Weights
+
+### 🔹 Meta (Llama)
+- [**Llama 3.3 70B**](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) - Modelo denso de gran calidad, comparable a GPT-4o en muchas tareas.
+- [**Llama 4 Scout / Maverick**](https://www.llama.com/) - Familia Llama 4 (MoE) con visión nativa y contexto extremadamente largo (hasta 10M tokens en Scout).
+
+### 🔹 DeepSeek
+- [**DeepSeek V4**](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) - Familia V4 (Pro y Flash) con contexto de 1M tokens y razonamiento integrado, referente abierto en código.
+- [**DeepSeek V3.2**](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) - Generación anterior MoE, aún muy usada en producción.
+- [**DeepSeek R1**](https://huggingface.co/deepseek-ai/DeepSeek-R1) **(MIT)** - Modelo de razonamiento pionero. Disponibles destilaciones a 1.5B–70B.
+
+### 🔹 Alibaba (Qwen)
+- [**Qwen 3.5 / 3.6**](https://huggingface.co/Qwen) - Última generación con modelos densos y MoE (buque insignia abierto: Qwen3.5-397B-A17B), modo "thinking" híbrido y excelente multilingüe.
+- [**Qwen3-Coder-Next**](https://huggingface.co/Qwen/Qwen3-Coder-Next) - Variante para programación, competitiva con los frontier en SWE-bench.
+- [**QwQ**](https://huggingface.co/Qwen/QwQ-32B) - Modelo de razonamiento abierto al estilo R1 (superado por los modos thinking de Qwen 3+).
 
 ### 🔹 Mistral AI
+- [**Mistral Large 3**](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512) **(Apache 2.0)** - Buque insignia open weights, MoE de 675B (41B activos).
+- [**Mistral Small 4**](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) - Sucesor de Small 3.2; para uso local sigue disponible [Small 3.2 24B](https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506) **(Apache 2.0)**.
+- [**Devstral 2**](https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512) - Especializado en programación agéntica (123B y Small 24B).
+- [**Codestral**](https://mistral.ai/news/codestral) - Modelo especializado en código (80+ lenguajes), vía API.
+- [**Pixtral**](https://huggingface.co/mistralai/Pixtral-12B-2409) - Multimodal visión + texto.
+- [**Magistral**](https://huggingface.co/mistralai/Magistral-Small-2509) - Familia de razonamiento de Mistral.
 
-- [**Mistral 7B**](https://huggingface.co/mistralai/Mistral-7B-v0.1) - Pequeño pero potente (instruct-tuned), ideal para tareas generales.
-- [**Mixtral 8x7B**](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) - Modelo Mixture of Experts, eficiente y versátil.
+### 🔹 OpenAI (sí, open weights)
+- [**gpt-oss-120b / gpt-oss-20b**](https://github.com/openai/gpt-oss) **(Apache 2.0)** - Primeros modelos de pesos abiertos de OpenAI (2025), pensados para razonamiento y uso de herramientas.
 
-### Granite
+### 🔹 Google (Gemma)
+- [**Gemma 4**](https://deepmind.google/models/gemma/gemma-4/) - Familia E2B / E4B / 12B / 26B MoE / 31B con visión y multilingüe. Apta desde móviles hasta GPU de escritorio.
+- [**Gemma QAT**](https://huggingface.co/google) - Versiones cuantizadas oficiales (Gemma 3/4) para ejecutar en GPUs de consumo.
 
-- [**Ibm-granite**](https://huggingface.co/ibm-granite) - Serie de modelos multimodales de IBM, open‑source hasta 34B parámetros, optimizados para uso empresarial en lenguaje, código, visión, voz y series temporales.
+### 🔹 Microsoft (Phi)
+- [**Phi-4**](https://huggingface.co/microsoft/phi-4) **(MIT)** - 14B con calidad sorprendente para su tamaño.
+- [**Phi-4-mini / Phi-4-multimodal**](https://huggingface.co/microsoft) - Versiones pequeñas y multimodales.
+- [**Phi-4-reasoning**](https://huggingface.co/microsoft/Phi-4-reasoning) - Variantes de razonamiento (incluida Phi-4-reasoning-vision).
 
-### 🔹 Meta AI
+### 🔹 IBM (Granite)
+- [**Granite 4.1**](https://huggingface.co/ibm-granite) **(Apache 2.0)** - Familia empresarial 3B–30B para lenguaje, código, visión, voz y guardrails.
 
-- [**LLaMA 2**](https://ai.meta.com/llama/) *(7B, 13B, 70B)* - Modelos potentes con licencia abierta pero restrictiva para uso comercial.
-- [**LLaMA 3**](https://ai.meta.com/llama/) *(8B, 70B)* - Última generación, mejor rendimiento y alineamiento.
+### 🔹 Moonshot AI
+- [**Kimi K2.6**](https://huggingface.co/moonshotai/Kimi-K2.6) - MoE de ~1T parámetros (32B activos), multimodal, referente abierto en uso de herramientas y agentes.
 
-### 🔹 Falcon (TII UAE)
+### 🔹 Zhipu AI (Z.ai)
+- [**GLM-5 / GLM-5.1**](https://huggingface.co/zai-org) - Familia china competitiva en razonamiento y código (745B, 44B activos).
 
-- [**Falcon 7B / 40B**](https://huggingface.co/tiiuae) - Modelos rápidos y entrenados en grandes corpus abiertos.
+### 🔹 Allen AI (verdaderamente abiertos: pesos + datos + código)
+- [**OLMo 3 / 3.1**](https://huggingface.co/allenai) **(Apache 2.0)** - Modelos 7B/32B (Base/Instruct/Think) con todo el pipeline de entrenamiento abierto.
+- [**Tülu 3**](https://huggingface.co/allenai) - Modelos post-entrenados con datos y receta totalmente abiertos.
 
 ### 🔹 Nous Research
+- [**Hermes 4.3**](https://huggingface.co/NousResearch) - Última generación de Hermes, fine-tunes alineados.
 
-- [**Nous-Hermes 2 (Mistral-based)**](https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO) - Muy fuerte en respuestas útiles y conversaciones.
-- [**Nous-Capybara**](https://huggingface.co/NousResearch/Nous-Capybara-7B-V1p9) - Optimizado para velocidad y eficiencia.
+### 🔹 Cohere
+- [**Command A+**](https://huggingface.co/CohereLabs) **(Apache 2.0)** - MoE de 218B (25B activos) optimizado para RAG y herramientas, multilingüe. Primera licencia permisiva de Cohere.
 
-## 2. Modelos con Licencia Semi-Abierta
-*(Uso personal o investigativo permitido; uso comercial restringido)*
+### 🔹 Hugging Face
+- [**SmolLM3 3B**](https://huggingface.co/HuggingFaceTB/SmolLM3-3B) **(Apache 2.0)** - SLM de alta calidad con receta totalmente abierta.
 
-### 🔸 OpenChat
+---
 
-- [**OpenChat 3.5**](https://huggingface.co/openchat) - Modelo basado en LLaMA con excelente alineamiento mediante C-RLFT.
+## ⚙️ Ejecución y Servido de LLMs
 
-### 🔸 Zephyr
+### Locales / Personales
+- [**Ollama**](https://ollama.com/) **(open source, MIT)** - Cliente CLI para descargar y correr LLMs en local con un solo comando.
+- [**LM Studio**](https://lmstudio.ai/) - GUI para ejecutar LLMs localmente con interfaz amigable.
+- [**llama.cpp**](https://github.com/ggml-org/llama.cpp) **(open source, MIT)** - Motor de inferencia en C/C++ que hace posible casi todo lo demás.
+- [**Llamafile**](https://github.com/Mozilla-Ocho/llamafile) **(open source, Apache 2.0)** - De Mozilla. Empaqueta modelo + runtime en un único ejecutable portable.
+- [**Jan**](https://jan.ai/) **(open source, AGPL)** - Alternativa libre y local a ChatGPT, multiplataforma.
+- [**Text Generation WebUI**](https://github.com/oobabooga/text-generation-webui) **(open source, AGPL)** - Web UI configurable para experimentar con modelos.
 
-- [**Zephyr 7B (Beta / DPO / Orpo)**](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta) - Diseñado para seguir instrucciones humanas con precisión.
+### Producción / Servido
+- [**vLLM**](https://github.com/vllm-project/vllm) **(open source, Apache 2.0)** - Motor de inferencia de alto rendimiento con PagedAttention.
+- [**SGLang**](https://github.com/sgl-project/sglang) **(open source, Apache 2.0)** - Runtime alternativo a vLLM, fuerte en estructuras y herramientas.
+- [**TGI (Text Generation Inference)**](https://github.com/huggingface/text-generation-inference) - De Hugging Face, optimizado para producción.
+- [**LiteLLM**](https://github.com/BerriAI/litellm) **(open source, MIT)** - Proxy unificado para llamar a 100+ proveedores con la API de OpenAI.
 
-## 3. Modelos Ligeros / para Uso Local o Edge
+### Interfaces de Chat
+- [**Open WebUI**](https://github.com/open-webui/open-webui) **(open source)** - Interfaz tipo ChatGPT autohospedada, integrada con Ollama y MCP.
+- [**LibreChat**](https://github.com/danny-avila/LibreChat) **(open source, MIT)** - Frontend multiusuario para múltiples LLMs.
+- [**AnythingLLM**](https://github.com/Mintplex-Labs/anything-llm) **(open source, MIT)** - Cliente con RAG, agentes y workspaces por usuario.
+- [**Open Interpreter**](https://github.com/OpenInterpreter/open-interpreter) **(open source, AGPL)** - Ejecuta código generado por LLMs en local con un chat.
 
-- [**TinyLlama 1.1B**](https://huggingface.co/cais/TinyLlama-1.1B-Chat-v1.0) - Entrenado desde cero, ideal para dispositivos con recursos limitados.
-- [**Phi-2 (Microsoft)**](https://huggingface.co/microsoft/phi-2) - Modelo instructivo compacto, útil para tareas simples.
-- [**Gemma (Google)**](https://huggingface.co/google/gemma-7b) - Modelos pequeños de alto rendimiento (2B, 7B).
+---
 
-## 4. Modelos Especializados o Multilingües
+## 🧪 IA / Modelado / Fine-tuning
 
-- [**BLOOM**](https://huggingface.co/bigscience/bloom) - Entrenado de forma colaborativa, soporta más de 40 idiomas.
-- [**XLM-R (XLM-RoBERTa)**](https://huggingface.co/facebook/xlm-roberta-base) - Excelente para clasificación y análisis en múltiples idiomas.
-- [**OpenHermes / OpenOrca**](https://huggingface.co/models?search=openorca) - Diseñados para RAG, búsqueda semántica y más.
+- [**Hugging Face Hub**](https://huggingface.co/) - Plataforma central de modelos y datasets abiertos.
+- [**Transformers**](https://github.com/huggingface/transformers) **(open source, Apache 2.0)** - Framework de referencia para modelos NLP/multimodales.
+- [**PEFT (LoRA, QLoRA)**](https://github.com/huggingface/peft) **(open source)** - Fine-tuning eficiente en parámetros.
+- [**TRL**](https://github.com/huggingface/trl) **(open source, Apache 2.0)** - Entrenamiento por refuerzo (DPO, GRPO, SFT) para LLMs.
+- [**Unsloth**](https://github.com/unslothai/unsloth) **(open source, Apache 2.0)** - Fine-tuning 2-5× más rápido y con menos memoria.
+- [**Axolotl**](https://github.com/axolotl-ai-cloud/axolotl) **(open source, Apache 2.0)** - Herramienta para fine-tuning configurable por YAML.
+- [**Google Colab**](https://colab.research.google.com/) - Notebooks con GPU gratis.
+- [**Kaggle Kernels**](https://www.kaggle.com/code) - Notebooks con datasets integrados.
 
-### Herramientas para Usar LLMs Localmente
+---
 
-- [**LM Studio**](https://lmstudio.ai/) - Interfaz gráfica para correr modelos LLM de forma local en tu equipo.
-- [**Ollama**](https://ollama.com/) - Cliente de línea de comandos para descargar y ejecutar LLMs con facilidad.
-- [**Text Generation Web UI**](https://github.com/oobabooga/text-generation-webui) - Web UI configurable para probar modelos offline con extensiones, LoRA, RAG, etc.
+## 🛠️ Utilidades de IA
 
-### IDE's
+- [**Napkin AI**](https://app.napkin.ai/) - Convierte textos en diagramas e infografías con un clic.
+- [**Kokoro TTS**](https://kokorotts.net/es) **(open weights, Apache 2.0)** - TTS de calidad con un modelo abierto de 82M.
+- [**Whisper**](https://github.com/openai/whisper) **(open source, MIT)** - STT de OpenAI.
+- [**faster-whisper**](https://github.com/SYSTRAN/faster-whisper) **(open source, MIT)** - Implementación 4× más rápida con CTranslate2.
+- [**Coqui TTS / XTTS**](https://github.com/coqui-ai/TTS) **(open source)** - Síntesis de voz multilingüe y clonación.
 
-- [**VSCode**](https://code.visualstudio.com/) - IDE de desarrollo se puede integrar con IA
-- [**Cursor**](https://www.cursor.com/) - Editor de codigo con IA incorporado
-- [**Windsurf**](https://windsurf.com/) - IDE nativo con agentes de IA que combina asistente estilo Copilot y capacidades autónomas (Cascade) para ayudarte a escribir, refactorizar y desplegar código sin salir del flujo.
-- [**Jetbrains**](https://www.jetbrains.com/es-es/) - IDEs avanzados (IntelliJ IDEA, PyCharm, WebStorm…) y herramientas colaborativas para desarrolladores.
-- [**JupyterLab**](https://jupyter.org/) - Interfaz de código interactivo para Python, R, Julia, etc.
+---
 
-### Bases de Datos
+## 🗄️ Bases de Datos
 
-- [**Duckdb**](https://duckdb.org/) - Base de datos SQL OLAP de alto rendimiento, embebida en el proceso de la aplicación, perfecta para análisis local de grandes datasets.
-- [**SQLite**](https://www.sqlite.org/index.html) – Simple, sin servidor
-- [**PostgreSQL**](https://www.postgresql.org/) – SQL gestionado
-- [**Bonsai**](https://bonsai.io/) - ElasticSearch gestionado (plan gratuito)
-- [**MinIO**](https://github.com/minio/) - Almacenamiento de objetos de alto rendimiento compatible con S3, ideal para entornos on‑premise, nube híbrida o desarrollo local.
+- [**PostgreSQL**](https://www.postgresql.org/) **(open source, PostgreSQL License)** - El SQL de referencia.
+- [**SQLite**](https://www.sqlite.org/) **(open source, dominio público)** - Embebido, sin servidor.
+- [**DuckDB**](https://duckdb.org/) **(open source, MIT)** - OLAP embebido, perfecto para análisis local de grandes datasets.
+- [**Supabase**](https://supabase.com/) **(open source, Apache 2.0)** - BaaS sobre Postgres con auth, storage y APIs en tiempo real.
+- [**Neon**](https://neon.tech/) - Postgres serverless con branching.
+- [**MinIO**](https://github.com/minio/minio) **(open source, AGPL)** - Almacenamiento de objetos compatible con S3.
+- [**Bonsai**](https://bonsai.io/) - ElasticSearch gestionado (plan gratuito).
 
-### Vector DB
+### Vector / Búsqueda Semántica
+- [**pgvector**](https://github.com/pgvector/pgvector) **(open source, PostgreSQL License)** - Extensión Postgres para vectores. Empieza por aquí.
+- [**Qdrant**](https://github.com/qdrant/qdrant) **(open source, Apache 2.0)** - Base de datos vectorial escrita en Rust, muy rápida.
+- [**Chroma**](https://github.com/chroma-core/chroma) **(open source, Apache 2.0)** - Ligera y pensada para LLMs.
+- [**Milvus**](https://github.com/milvus-io/milvus) **(open source, Apache 2.0)** - Vector DB nativa cloud para miles de millones de vectores.
+- [**Weaviate**](https://github.com/weaviate/weaviate) **(open source, BSD-3)** - Vector DB con módulos integrados para vectorización y RAG.
+- [**LanceDB**](https://github.com/lancedb/lancedb) **(open source, Apache 2.0)** - Vector DB embebida y serverless, multimodal.
+- [**FAISS**](https://github.com/facebookresearch/faiss) **(open source, MIT)** - Librería de búsqueda vectorial de Meta (CPU/GPU).
 
-- [**Faiss**](https://github.com/facebookresearch/faiss) - Librería de código abierto para búsqueda eficiente y clustering de vectores densos, compatible con CPU y GPU.
-- [**Chroma**](https://github.com/chroma-core/chroma) - Base de datos de vectores open-source para almacenamiento de embeddings y búsqueda semántica con LLMs.
-- [**Milvus**](https://github.com/milvus-io/milvus) - Base de datos vectorial de alto rendimiento, nativa en la nube, diseñada para búsquedas por similitud a escala (de millones a miles de millones de vectores).
-- [**Qdrant**](https://github.com/qdrant/qdrant) - Base de datos vectorial de alto rendimiento y código abierto, optimizada para búsquedas por similitud semántica a gran escala.
+---
 
-### APIs / Backend
+## 🚀 APIs / Backend
 
-- [**FastAPI**](https://fastapi.tiangolo.com/) – Framework rápido para APIs
-- [**Render**](https://render.com/) – Hosting gratuito para backend
-- [**Railway**](https://railway.app/) – Alternativa para despliegue simple
-- [**OpenAPI Generator**](https://openapi-generator.tech/) – Generación de clientes/Docs
+- [**FastAPI**](https://fastapi.tiangolo.com/) **(open source, MIT)** - Framework Python rápido y tipado para APIs.
+- [**Litestar**](https://litestar.dev/) **(open source, MIT)** - Alternativa moderna a FastAPI, muy completa.
+- [**Hono**](https://hono.dev/) **(open source, MIT)** - Framework web ultraligero para JS/TS y runtimes edge.
+- [**Render**](https://render.com/) - Hosting de backends y bases de datos.
+- [**Railway**](https://railway.app/) - Despliegue simple con DX excelente.
+- [**Fly.io**](https://fly.io/) - Despliegue global de apps en contenedores cerca del usuario.
+- [**OpenAPI Generator**](https://openapi-generator.tech/) **(open source, Apache 2.0)** - Generación de clientes y docs a partir de OpenAPI.
 
-## Despliegue Frontend
+---
 
-- [**Vercel**](https://vercel.com/) - Hosting gratuito optimizado para Next.js, perfecto para frontends modernos.
-- [**Netlify**](https://www.netlify.com/) - Despliegue automático para sitios frontend conectados a Git.
-- [**Cloudflare Pages**](https://pages.cloudflare.com/) - Hosting JAMstack rápido y gratuito.
+## 🎨 Despliegue Frontend
 
-##  UI / Frameworks de Componentes
+- [**Vercel**](https://vercel.com/) - Hosting optimizado para Next.js, ideal para frontends modernos.
+- [**Netlify**](https://www.netlify.com/) - Despliegue automático conectado a Git.
+- [**Cloudflare Pages**](https://pages.cloudflare.com/) - Hosting JAMstack rápido en la red de Cloudflare.
+- [**Coolify**](https://coolify.io/) **(open source)** - Alternativa autohospedada a Vercel/Netlify/Heroku.
 
-- [**Tailwind CSS**](https://tailwindcss.com/) - Framework de utilidades para construir interfaces modernas y rápidas.
-- [**ShadCN/UI**](https://ui.shadcn.dev/) - Colección de componentes accesibles y bonitos usando Tailwind y Radix.
-- [**Material UI (MUI)**](https://mui.com/) - Componentes React basados en Material Design.
-- [**Radix UI**](https://www.radix-ui.com/) - Componentes sin estilos predefinidos, muy accesibles y personalizables.
-- [**DaisyUI**](https://daisyui.com/) - Componentes con estilo sobre Tailwind CSS.
-- [**Bootstrap**](https://getbootstrap.com/) -Framework de utilidades para construir interfaces modernas y rápidas.
+---
 
-## Frameworks Frontend
+## 🧱 UI / Frameworks de Componentes
 
-- [**Next.js**](https://nextjs.org/) - Framework para React con renderizado híbrido. Ideal para proyectos completos.
-- [**Vue.js**](https://vuejs.org/) - Framework progresivo, sencillo y potente para construir interfaces.
-- [**Svelte / SvelteKit**](https://kit.svelte.dev/) - Framework que compila a JavaScript puro, ideal para rendimiento.
-- [**htmlx**](https://htmx.org/) - Framework para construir interfaces web
+- [**Tailwind CSS**](https://tailwindcss.com/) **(open source, MIT)** - Utility-first CSS. Estándar de facto.
+- [**shadcn/ui**](https://ui.shadcn.com/) **(open source, MIT)** - Componentes copiables sobre Tailwind + Radix.
+- [**Radix UI**](https://www.radix-ui.com/) **(open source, MIT)** - Primitivos accesibles sin estilo.
+- [**Material UI**](https://mui.com/) **(open source, MIT)** - Componentes React Material Design.
+- [**DaisyUI**](https://daisyui.com/) **(open source, MIT)** - Componentes sobre Tailwind.
+- [**Bootstrap**](https://getbootstrap.com/) **(open source, MIT)** - El clásico framework CSS.
+- [**Park UI**](https://park-ui.com/) **(open source)** - Sobre Panda CSS y Ark UI.
 
-## Visualización de Datos
+---
 
-- [**Recharts**](https://recharts.org/) - Gráficas para React fáciles de integrar y personalizar.
-- [**Chart.js**](https://www.chartjs.org/) - Biblioteca simple y funcional para gráficos.
-- [**Plotly.js**](https://plotly.com/javascript/) - Visualizaciones avanzadas e interactivas (3D, mapas, etc.).
-- [**D3.js**](https://d3js.org/) - Potente para gráficos personalizados, aunque con curva de aprendizaje.
+## 🖼️ Frameworks Frontend
 
-### MQTT / IoT
+- [**Next.js**](https://nextjs.org/) **(open source, MIT)** - El framework React full-stack más usado.
+- [**Astro**](https://astro.build/) **(open source, MIT)** - Multi-framework, ideal para contenido y sites con islas de interactividad.
+- [**Vue.js**](https://vuejs.org/) / [**Nuxt**](https://nuxt.com/) **(open source, MIT)** - Vue progresivo y su meta-framework.
+- [**Svelte / SvelteKit**](https://svelte.dev/) **(open source, MIT)** - Compila a JS puro, excelente rendimiento.
+- [**SolidJS**](https://www.solidjs.com/) **(open source, MIT)** - Reactividad de grano fino sin Virtual DOM.
+- [**HTMX**](https://htmx.org/) **(open source, BSD-2)** - HTML hipermedia + interactividad sin SPA.
+- [**Remix / React Router**](https://reactrouter.com/) **(open source, MIT)** - Web standards + React.
 
-- [**Mosquitto**](https://mosquitto.org/) – Broker MQTT ligero
-- [**HiveMQ Cloud**](https://www.hivemq.com/mqtt-cloud-broker/) – Broker MQTT gratuito
-- [**MQTT Explorer**](https://mqtt-explorer.com/) – GUI para depurar MQTT
+---
 
-### Seguridad
+## 📊 Visualización de Datos
 
-- [**Keycloak**](https://www.keycloak.org/) – Gestión de identidades de código abierto
-- [**Auth0**](https://auth0.com/) – Autenticación como servicio (plan gratuito)
-- [**Nginx Proxy Manager**](https://github.com/NginxProxyManager/nginx-proxy-manager) - Interfaz web intuitiva, gratuita y autohospedada para gestionar hosts y certificados SSL automáticamente en Nginx usando Docker.
-- [**Certbot**](https://certbot.eff.org/) - Certificados SSL gratuitos para Nginx
-- [**Let's Encrypt**](https://letsencrypt.org/) - Certificados SSL gratuitos para Nginx
-- [**NGINX**](https://nginx.org/) - Servidor web de código abierto que se puede configurar para proteger y optimizar tu sitio web.
+- [**Recharts**](https://recharts.org/) **(open source, MIT)** - Gráficas para React fáciles de integrar.
+- [**Chart.js**](https://www.chartjs.org/) **(open source, MIT)** - Biblioteca simple y popular.
+- [**Plotly.js**](https://plotly.com/javascript/) **(open source, MIT)** - Visualizaciones avanzadas e interactivas.
+- [**D3.js**](https://d3js.org/) **(open source, ISC)** - Potente y flexible, con curva de aprendizaje.
+- [**Observable Plot**](https://observablehq.com/plot/) **(open source, ISC)** - API declarativa sobre D3.
+- [**ECharts**](https://echarts.apache.org/) **(open source, Apache 2.0)** - Visualizaciones potentes mantenidas por Apache.
 
-### CI/CD y Contenedores
+---
 
-- [**GitHub Actions**](https://github.com/features/actions) – Automatización de despliegues
-- [**Docker Hub**](https://hub.docker.com/) – Almacenamiento de imágenes Docker
-- [**Dokploy**](https://github.com/Dokploy/dokploy?tab=readme-ov-file) - Alternativa open‑source a Vercel/Netlify/Heroku para desplegar apps y bases de datos con Docker desde una interfaz visual.
-- [**Dockge**](https://github.com/louislam/dockge) - Interfaz web reactiva para gestionar múltiples stacks docker-compose.yml desde un solo panel.
-- [**LocalStack**](https://www.localstack.cloud/) - Simulador local de servicios AWS que permite desarrollar, probar y depurar apps cloud sin usar la nube real.
+## 📡 MQTT / IoT
 
-### Observabilidad / Test
+- [**Mosquitto**](https://mosquitto.org/) **(open source, EPL/EDL)** - Broker MQTT ligero.
+- [**EMQX**](https://github.com/emqx/emqx) **(open source, Apache 2.0)** - Broker MQTT escalable.
+- [**HiveMQ Cloud**](https://www.hivemq.com/mqtt-cloud-broker/) - Broker MQTT gestionado (plan gratuito).
+- [**MQTT Explorer**](https://mqtt-explorer.com/) - GUI para depurar MQTT.
+- [**Home Assistant**](https://www.home-assistant.io/) **(open source, Apache 2.0)** - Plataforma de domótica abierta.
 
-- [**Postman**](https://www.postman.com/) – Testing de APIs
-- [**phoenix**](https://github.com/Arize-ai/phoenix) - Plataforma open-source que ofrece observabilidad, trazado y evaluación de aplicaciones LLM, todo desde un dashboard intuitivo.
+---
 
-### Automatización y Servicios
+## 🔐 Seguridad
 
-- [**n8n**](https://n8n.io/) - Automatización flexible del flujo de trabajo con IA
-- [**Supabase**](https://supabase.com/) - Supabase es una plataforma de backend como servicio (BaaS) de código abierto que ofrece base de datos, autenticación, almacenamiento y API en tiempo real listos para usar.
-- [**Ansible**](https://docs.ansible.com/) - Herramienta de automatización open source para configurar sistemas, desplegar aplicaciones y orquestar infraestructura mediante YAML.
+- [**Keycloak**](https://www.keycloak.org/) **(open source, Apache 2.0)** - Gestión de identidades empresarial.
+- [**Authentik**](https://goauthentik.io/) **(open source, MIT)** - Alternativa moderna a Keycloak.
+- [**Auth0**](https://auth0.com/) - Autenticación como servicio (plan gratuito).
+- [**Nginx Proxy Manager**](https://github.com/NginxProxyManager/nginx-proxy-manager) **(open source, MIT)** - GUI para gestionar Nginx + SSL.
+- [**Caddy**](https://caddyserver.com/) **(open source, Apache 2.0)** - Servidor web con HTTPS automático.
+- [**Traefik**](https://traefik.io/traefik/) **(open source, MIT)** - Reverse proxy y load balancer cloud-native.
+- [**Certbot**](https://certbot.eff.org/) **(open source)** / [**Let's Encrypt**](https://letsencrypt.org/) - Certificados SSL gratuitos.
+- [**NGINX**](https://nginx.org/) **(open source, BSD-2)** - Servidor web de referencia.
 
-### Utilidades
+---
 
-- [**Git**](https://git-scm.com/) - Git es un sistema de control de versiones distribuido que permite gestionar y seguir cambios en archivos de código de forma eficiente.
-- [**podman**](https://podman-desktop.io/) -
-- [**Docker**](https://www.docker.com/) - Docker es una plataforma que permite crear, ejecutar y gestionar aplicaciones en contenedores ligeros y portables.
-- [**Omni‑Tools**](https://github.com/iib0011/omni-tools) - Colección autohospedada de herramientas web prácticas (PDF, vídeo, texto, datos, cálculos…) que se ejecutan totalmente en el navegador.
-- [**dawarich**](https://dawarich.app/docs/intro) - App web self-hosted para registrar, visualizar y analizar tu historial de ubicación con total privacidad.
+## 🔄 CI/CD y Contenedores
 
-## Herramientas Útiles
+- [**GitHub Actions**](https://github.com/features/actions) - Automatización integrada con GitHub.
+- [**Forgejo Actions**](https://forgejo.org/) **(open source, GPL-3.0)** - Equivalente en el fork comunitario de Gitea.
+- [**Docker**](https://www.docker.com/) - Plataforma de contenedores estándar.
+- [**Podman**](https://podman.io/) **(open source, Apache 2.0)** - Contenedores sin daemon, drop-in replacement de Docker.
+- [**Docker Hub**](https://hub.docker.com/) - Registro público de imágenes.
+- [**Dokploy**](https://github.com/Dokploy/dokploy) **(open source)** - Alternativa autohospedada a Vercel/Heroku.
+- [**Dockge**](https://github.com/louislam/dockge) **(open source, MIT)** - Gestor visual de stacks docker-compose.
+- [**Portainer CE**](https://www.portainer.io/) **(open source)** - GUI para Docker y Kubernetes.
+- [**LocalStack**](https://www.localstack.cloud/) - Simulador local de servicios AWS.
 
-- [**Vite**](https://vitejs.dev/) - Empaquetador rápido y moderno para React, Vue, Svelte, etc.
-- [**PNPM**](https://pnpm.io/) - Gestor de paquetes rápido y eficiente.
-- [**pexels**](https://www.pexels.com/)- Colección de imágenes y videos de perfiles de personas de alta calidad.
-  - [Lucide](https://lucide.dev/)
-  - [Heroicons](https://heroicons.com/)
-  - [Tabler Icons](https://tabler.io/icons)
+---
 
-### Configuración de entornos de trabajo
+## 🔭 Observabilidad / Test
 
-- [**Windows**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_windows.md) - Pasos para configurar tu Windows🪟
-- [**Linux - Ubuntu**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_linux_ubuntu.md) - Pasos para configurar tu Linux Ubuntu🐧
-- [**Linux - Fedora**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_linux_fedora.md) - Pasos para configurar tu Linux Fedora🐧
-- [**Mac Os X**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_macosx.md) - Pasos para configurar tu Mac🍎
-- [**Configurar un entorno virtual en Python**](https://github.com/ANFAIA/recursos-anfaia/blob/main/virtual_enviroment.md) - Configurar un entorno virtual en Python 
+- [**Postman**](https://www.postman.com/) - Testing manual y automático de APIs.
+- [**Bruno**](https://www.usebruno.com/) **(open source, MIT)** - Alternativa offline-first y gitops a Postman.
+- [**Hoppscotch**](https://hoppscotch.io/) **(open source, MIT)** - Cliente API web.
+- [**Phoenix**](https://github.com/Arize-ai/phoenix) **(open source, Elastic 2.0)** - Observabilidad y evaluación de aplicaciones LLM.
+- [**LangFuse**](https://github.com/langfuse/langfuse) **(open source, MIT)** - Observabilidad, traces, evals y prompt management para LLMs.
+- [**Helicone**](https://github.com/Helicone/helicone) **(open source, Apache 2.0)** - Observabilidad LLM como proxy o async.
+- [**OpenLLMetry**](https://github.com/traceloop/openllmetry) **(open source, Apache 2.0)** - Extensión de OpenTelemetry para LLMs.
+- [**Grafana**](https://grafana.com/) **(open source, AGPL)** + [**Prometheus**](https://prometheus.io/) **(open source, Apache 2.0)** - Stack de monitorización estándar.
 
-### Tutoriales
+---
 
-- [**FastAPI**](https://github.com/dibanez/fastapi_tutorial) - Tutorial de inicio de una API usando FastAPI
-- [**Django**](https://github.com/dibanez/django_library_workshop) - Tutorial de inicio de una APP con Django, también incluye API.
+## 🤖 Automatización
+
+- [**n8n**](https://n8n.io/) **(fair-code)** - Workflows con nodos de IA y agentes.
+- [**Activepieces**](https://www.activepieces.com/) **(open source, MIT)** - Alternativa libre a Zapier.
+- [**Windmill**](https://www.windmill.dev/) **(open source, AGPL)** - Plataforma para scripts, flujos y apps internas.
+- [**Ansible**](https://docs.ansible.com/) **(open source, GPL-3.0)** - Automatización de infraestructura por YAML.
+- [**Terraform**](https://www.terraform.io/) / [**OpenTofu**](https://opentofu.org/) **(open source)** - Infraestructura como código (OpenTofu es el fork libre).
+
+---
+
+## 🧰 Utilidades
+
+- [**Git**](https://git-scm.com/) **(open source, GPL-2.0)** - Control de versiones distribuido.
+- [**Forgejo**](https://forgejo.org/) **(open source, GPL-3.0)** - Forge Git autohospedable (fork comunitario de Gitea).
+- [**Omni-Tools**](https://github.com/iib0011/omni-tools) **(open source, MIT)** - Toolkit web autohospedado de utilidades en el navegador.
+- [**Dawarich**](https://dawarich.app/docs/intro) **(open source)** - Historial de ubicación self-hosted.
+- [**Immich**](https://immich.app/) **(open source, AGPL)** - Alternativa libre a Google Photos.
+- [**Nextcloud**](https://nextcloud.com/) **(open source, AGPL)** - Suite colaborativa autohospedada.
+
+---
+
+## ⚡ Herramientas de Desarrollo Modernas
+
+- [**uv**](https://github.com/astral-sh/uv) **(open source, MIT)** - Gestor de Python en Rust ultrarrápido (reemplaza pip, venv, pyenv, pip-tools…).
+- [**Ruff**](https://github.com/astral-sh/ruff) **(open source, MIT)** - Linter + formatter de Python en Rust, 10-100× más rápido.
+- [**Vite**](https://vitejs.dev/) **(open source, MIT)** - Empaquetador moderno para apps web.
+- [**Bun**](https://bun.sh/) **(open source, MIT)** - Runtime, bundler, test runner y package manager JS todo-en-uno.
+- [**Deno**](https://deno.com/) **(open source, MIT)** - Runtime JS/TS seguro por defecto, con APIs web.
+- [**pnpm**](https://pnpm.io/) **(open source, MIT)** - Gestor de paquetes JS eficiente en disco.
+- [**Biome**](https://biomejs.dev/) **(open source, MIT)** - Linter + formatter JS/TS en Rust, alternativa a ESLint+Prettier.
+- [**Turborepo**](https://turbo.build/) **(open source, MPL-2.0)** - Build system de Vercel para monorepos.
+
+---
+
+## 🖼️ Recursos Gráficos
+
+- [**Pexels**](https://www.pexels.com/) - Imágenes y vídeos gratuitos de calidad.
+- [**Unsplash**](https://unsplash.com/) - Fotografía gratuita de alta calidad.
+- [**Lucide**](https://lucide.dev/) **(open source, ISC)** - Iconos abiertos modernos.
+- [**Heroicons**](https://heroicons.com/) **(open source, MIT)** - Iconos de los creadores de Tailwind.
+- [**Tabler Icons**](https://tabler.io/icons) **(open source, MIT)** - 5000+ iconos SVG libres.
+- [**Phosphor Icons**](https://phosphoricons.com/) **(open source, MIT)** - Familia de iconos consistente y flexible.
+
+---
+
+## 🛠️ Configuración de Entornos de Desarrollo
+
+- [**Windows**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_windows.md) - Pasos para configurar tu Windows 🪟
+- [**Linux - Ubuntu**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_linux_ubuntu.md) - Pasos para configurar tu Linux Ubuntu 🐧
+- [**Linux - Fedora**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_linux_fedora.md) - Pasos para configurar tu Linux Fedora 🐧
+- [**macOS**](https://github.com/ANFAIA/recursos-anfaia/blob/main/entorno_macosx.md) - Pasos para configurar tu Mac 🍎
+- [**Entorno virtual en Python**](https://github.com/ANFAIA/recursos-anfaia/blob/main/virtual_environment.md) - Crear y gestionar un venv en Python
+
+---
+
+## 📚 Tutoriales
+
+- [**FastAPI**](https://github.com/dibanez/fastapi_tutorial) - Tutorial de inicio de una API con FastAPI.
+- [**Django**](https://github.com/dibanez/django_library_workshop) - Tutorial de una app Django con API incluida.

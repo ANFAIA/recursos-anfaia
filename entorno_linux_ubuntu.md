@@ -29,8 +29,11 @@ Ubuntu ya incluye una terminal funcional, pero puedes mejorarla con:
 
 ```bash
 sudo apt install zsh -y
+chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+> Cierra sesión y vuelve a entrar para que el cambio de shell tenga efecto.
 
 ---
 
@@ -58,8 +61,10 @@ docker --version
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
-ollama run llama3
+ollama run gemma4
 ```
+
+> `ollama run <modelo>` descarga y ejecuta el modelo en local. Puedes ver el catálogo completo en [ollama.com/library](https://ollama.com/library) (por ejemplo `gemma4`, `qwen3` o `llama3.3`).
 
 ---
 
@@ -79,9 +84,20 @@ sudo apt install code -y
 ## 7. Instalar Python
 
 ```bash
-sudo apt install python3 python3-pip -y
+sudo apt install python3 python3-pip python3-venv -y
 python3 --version
 pip3 --version
+```
+
+> En Ubuntu el módulo `venv` no viene incluido con `python3`: el paquete `python3-venv` es necesario para crear entornos virtuales.
+
+### Opcional (recomendado): instalar uv
+
+[uv](https://github.com/astral-sh/uv) es un gestor de Python ultrarrápido que reemplaza a pip, venv y pyenv:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv --version
 ```
 
 ---
@@ -89,3 +105,5 @@ pip3 --version
 ## 🎉 ¡Entorno listo!
 
 Tu entorno de desarrollo ya está listo para Python, Docker, VSCode y modelos de IA con Ollama en Ubuntu.
+
+➡️ Siguiente paso: [crear un entorno virtual en Python](virtual_environment.md).

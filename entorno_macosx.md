@@ -53,8 +53,11 @@ docker --version
 
 ```bash
 brew install ollama
-ollama run llama3
+brew services start ollama
+ollama run gemma4
 ```
+
+> `brew services start ollama` deja el servidor corriendo en segundo plano (necesario antes de `ollama run`). Catálogo de modelos en [ollama.com/library](https://ollama.com/library) (por ejemplo `gemma4`, `qwen3` o `llama3.3`).
 
 ---
 
@@ -80,8 +83,19 @@ python3 --version
 pip3 --version
 ```
 
+### Opcional (recomendado): instalar uv
+
+[uv](https://github.com/astral-sh/uv) es un gestor de Python ultrarrápido que reemplaza a pip, venv y pyenv:
+
+```bash
+brew install uv
+uv --version
+```
+
 ---
 
 ## 🎉 ¡Listo!
 
 Ahora puedes desarrollar en Python, usar contenedores Docker, ejecutar modelos IA con Ollama, y trabajar con VSCode en macOS.
+
+➡️ Siguiente paso: [crear un entorno virtual en Python](virtual_environment.md).

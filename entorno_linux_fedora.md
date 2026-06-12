@@ -33,6 +33,8 @@ chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+> Cierra sesión y vuelve a entrar para que el cambio de shell tenga efecto.
+
 ---
 
 ## 4. Instalar Docker
@@ -41,8 +43,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ```bash
 sudo dnf -y install dnf-plugins-core
-sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+sudo dnf config-manager addrepo --from-repofile=https://download.docker.com/linux/fedora/docker-ce.repo
 ```
+
+> En versiones antiguas de Fedora (dnf4, anteriores a Fedora 41) la sintaxis era `sudo dnf config-manager --add-repo <url>`.
 
 2. Instala Docker:
 
@@ -76,8 +80,10 @@ docker --version
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
-ollama run llama3
+ollama run gemma4
 ```
+
+> `ollama run <modelo>` descarga y ejecuta el modelo en local. Puedes ver el catálogo completo en [ollama.com/library](https://ollama.com/library) (por ejemplo `gemma4`, `qwen3` o `llama3.3`).
 
 ---
 
@@ -101,8 +107,19 @@ python3 --version
 pip3 --version
 ```
 
+### Opcional (recomendado): instalar uv
+
+[uv](https://github.com/astral-sh/uv) es un gestor de Python ultrarrápido que reemplaza a pip, venv y pyenv:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv --version
+```
+
 ---
 
 ## 🎉 ¡Entorno listo!
 
 Tu entorno de desarrollo en Fedora está preparado para Python, Docker, VSCode y modelos de IA con Ollama.
+
+➡️ Siguiente paso: [crear un entorno virtual en Python](virtual_environment.md).

@@ -2,13 +2,19 @@
 
 Este documento te guiará para montar un entorno de desarrollo moderno en Windows desde cero. Ideal para desarrollo en Python, contenedores con Docker, proyectos con IA (Ollama), y más.
 
+> 💡 **Atajo:** Windows incluye el gestor de paquetes [winget](https://learn.microsoft.com/windows/package-manager/winget/). Casi todo lo de esta guía se puede instalar desde PowerShell con un solo comando; en cada sección encontrarás la alternativa `winget` junto al instalador gráfico.
+
 ---
 
 ## 1. Instalar Git
 
 Git es el sistema de control de versiones más usado.
 
-🔗 [Descargar Git para Windows](https://git-scm.com/download/win)
+🔗 [Descargar Git para Windows](https://git-scm.com/download/win) — o con winget:
+
+```powershell
+winget install Git.Git
+```
 
 - Ejecuta el instalador.
 - En las opciones, selecciona:
@@ -51,7 +57,11 @@ Una vez instalado, puedes usar Linux directamente desde Windows.
 
 Docker te permite crear contenedores para tus aplicaciones.
 
-🔗 [Descargar Docker Desktop](https://www.docker.com/products/docker-desktop/)
+🔗 [Descargar Docker Desktop](https://www.docker.com/products/docker-desktop/) — o con winget:
+
+```powershell
+winget install Docker.DockerDesktop
+```
 
 - Asegúrate de que WSL2 esté instalado (Docker lo usará por defecto).
 - Tras la instalación, abre Docker Desktop y verifica que está funcionando.
@@ -66,27 +76,35 @@ docker --version
 
 ## 4. Instalar Ollama (para modelos de IA locales)
 
-🔗 [Descargar Ollama](https://ollama.com/download)
+🔗 [Descargar Ollama](https://ollama.com/download) — o con winget:
+
+```powershell
+winget install Ollama.Ollama
+```
 
 - Ejecuta el instalador y sigue las instrucciones.
 - Luego, abre la terminal y prueba:
 
 ```bash
-ollama run llama3
+ollama run gemma4
 ```
 
-> Esto descargará y ejecutará el modelo `llama3` localmente.
+> Esto descargará y ejecutará el modelo `gemma4` localmente. Catálogo completo en [ollama.com/library](https://ollama.com/library) (por ejemplo `gemma4`, `qwen3` o `llama3.3`).
 
 ---
 
 ## 5. Instalar Visual Studio Code (VSCode)
 
-🔗 [Descargar VSCode](https://code.visualstudio.com/Download)
+🔗 [Descargar VSCode](https://code.visualstudio.com/Download) — o con winget:
+
+```powershell
+winget install Microsoft.VisualStudioCode
+```
 
 - Recomendado instalar también las siguientes extensiones:
   - **Python**
   - **Docker**
-  - **Remote - WSL**
+  - **WSL** (antes "Remote - WSL")
   - **GitLens**
 
 Desde la terminal, puedes abrir VSCode con:
@@ -101,7 +119,11 @@ code .
 
 ## 6. Instalar Python
 
-🔗 [Descargar Python (desde la web oficial)](https://www.python.org/downloads/windows/)
+🔗 [Descargar Python (desde la web oficial)](https://www.python.org/downloads/windows/) — o con winget:
+
+```powershell
+winget install Python.Python.3.13
+```
 
 - Marca **"Add Python to PATH"** durante la instalación.
 - Selecciona la opción de instalar para todos los usuarios.
@@ -116,12 +138,14 @@ pip --version
 
 ## 7. Recomendaciones extra
 
-- 💡 Instala [Node.js](https://nodejs.org/) si planeas trabajar con herramientas front-end.
-- 💡 Usa [Poetry](https://python-poetry.org/) para gestionar dependencias de Python fácilmente.
-- 💡 Usa [Make para Windows](https://github.com/lxndrblz/wsl_make_install) o scripts `.ps1` para tareas comunes.
+- 💡 Instala [Node.js](https://nodejs.org/) si planeas trabajar con herramientas front-end (`winget install OpenJS.NodeJS.LTS`).
+- 💡 Usa [uv](https://github.com/astral-sh/uv) para gestionar Python, entornos virtuales y dependencias de forma ultrarrápida (`winget install astral-sh.uv`).
+- 💡 Para tareas comunes, usa scripts `.ps1` en PowerShell o `make` dentro de WSL.
 
 ---
 
 ## 🎉 ¡Listo!
 
 Ahora tienes un entorno completo para desarrollar en Python, Docker, IA y mucho más, todo desde tu máquina con Windows.
+
+➡️ Siguiente paso: [crear un entorno virtual en Python](virtual_environment.md).
